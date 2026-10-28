@@ -1,0 +1,25 @@
+
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.7;color:#1d2330;background:#f7f8fb}
+a{color:#2357d6}img{max-width:100%}
+header{background:#131826;color:#fff;padding:14px 20px}
+header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+header .logo{font-weight:800;font-size:1.25rem;color:#fff;text-decoration:none}
+nav a{color:#cfd8ff;margin-left:16px;text-decoration:none;font-weight:500}nav a:hover{color:#fff}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,#131826,#2357d6);color:#fff;padding:60px 0;text-align:center}
+.hero h1{font-size:2.2rem;margin:0 0 12px}.hero p{font-size:1.1rem;max-width:620px;margin:0 auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;padding:40px 0}
+.card{background:#fff;border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card h3{margin:6px 0 8px;font-size:1.1rem}.card h3 a{color:#1d2330;text-decoration:none}
+.tag{font-size:.8rem;color:#2357d6;font-weight:600;text-transform:uppercase}
+main.article{background:#fff;max-width:760px;margin:30px auto;padding:30px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+main.article h1{font-size:1.9rem;line-height:1.25}main.article h2{margin-top:28px;font-size:1.3rem}
+.meta{color:#6a7385;font-size:.9rem}
+.page{background:#fff;max-width:760px;margin:30px auto;padding:30px;border-radius:10px}
+footer{background:#131826;color:#aab3c8;text-align:center;padding:24px 16px;margin-top:40px;font-size:.9rem}
+footer a{color:#cfd8ff}
+form label{display:block;margin-top:12px;font-weight:600}
+form input,form textarea{width:100%;padding:10px;margin-top:4px;border:1px solid #cdd3e0;border-radius:6px;font:inherit}
+button{background:#2357d6;color:#fff;border:0;padding:10px 20px;border-radius:6px;font:inherit;cursor:pointer;margin-top:14px}
+.ad-note{display:none}
+@media (max-width:600px){nav a{margin-left:10px}.hero h1{font-size:1.6rem}main.article,.page{padding:20px;margin:16px 10px}}
